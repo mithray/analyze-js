@@ -1,0 +1,23 @@
+{
+    "title": "Joe's Cup o' Joe Coffee Shop",
+    "author": "Raymond Smith",
+    "domain": "joescupojoe.com",
+    "description": "",
+    "keywords": "coffee, joe, cup, java",
+    "phone_land": "",
+    "phone_mobile": "",
+    "address_street": "20 Queen Street",
+    "address_locality": "",
+    "address_region": "London",
+    "address_postcode": "",
+    "address_country": "United Kingdom",
+    "email": "",
+    "organization": "Joe's Cup o' Joe",
+    "founder_family_name": "",
+    "founder_given_name": "",
+    "zoom": "18",
+    "url_facebook": "https://facebook.com/joescupojoe",
+    "url_osm": "https://www.openstreetmap.org/?mlat=51.50712&mlon=-0.14727#map=17/51.50712/-0.14727",
+    "longitude": -0.1472746,
+    "latitude": 51.5071164
+}

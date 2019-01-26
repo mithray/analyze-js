@@ -1,0 +1,22 @@
+{
+  "name": "analyze_project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test:domain": "node test/gtmetrix.js",
+    "update:geocode": "node test/open_cage_data.js"
+  },
+  "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
+  "license": "ISC",
+  "dependencies": {
+    "configstore": "^4.0.0",
+    "file-type": "^10.7.1",
+    "gtmetrix": "^1.3.0",
+    "opencage-api-client": "^0.4.0",
+    "read-chunk": "^3.0.0"
+  }
+}
