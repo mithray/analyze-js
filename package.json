@@ -8,11 +8,13 @@
   },
   "scripts": {
     "test:domain": "node test/gtmetrix.js",
-    "update:geocode": "node test/open_cage_data.js"
+    "update:geocode": "node test/open_cage_data.js",
+    "dependencies": "npm ls --json | npm2dot | dot -Tsvg -o dependencies.svg -Grankdir=LR"
   },
   "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.19.0",
     "configstore": "^4.0.0",
     "file-type": "^10.7.1",
     "gtmetrix": "^1.3.0",
