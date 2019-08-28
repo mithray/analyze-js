@@ -12,6 +12,14 @@
 
 ## Installation
 
+```sh
+npm i @mithray/analyze-js
+```
+
+Installing graphviz will give you more attractive graphs. If I can find an attractive `javascript` alternative I will change this dependency. On a Debian based system use the following to install graphviz:
+```sh
+sudo apt-get install graphviz
+```
 ## Usage
 
 ## Roadmap
@@ -21,6 +29,10 @@
 * [ ] Dependency graphs
 
 ## Release Notes
+
+### Release 0.0.14
+
+* update
 
 ### Release 0.0.13
 
@@ -36,17 +48,10 @@
 
 ### Release 0.0.10
 
-* Remove logging
+* Remove unnecessary logging
 
 ### Release 0.0.9
 
 * Add default colors to dependency graph
 
 
-On a Debian based system use the following to install graphviz
-```sh
-sudo apt-get install graphviz
-```
-
-If you are using a non-Debian Linux based system you can figure it out!
-If you are using Mac, I have nothing to say to you!
