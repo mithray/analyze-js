@@ -1,5 +1,6 @@
-const gtmetrix = require('gtmetrix');
+const gtmetrix = require('gtmetrix')
 const getSVG = require('./lib/getDependenciesSVG.js')
+
 /*
 
 var content = fs.readFileSync('/home/raymond/backup/mithray/mnd/src/main.sass', 'utf8');
@@ -11,8 +12,12 @@ async function getDependenciesSVG(path){
 
 	let svg = await getSVG(path)
 
+				console.log(svg)
+
 	return svg
 
 }
 
 module.exports = getDependenciesSVG
+
+//getDependenciesSVG('./index.js')

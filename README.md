@@ -2,15 +2,21 @@
 
 ## Release Notes
 
+### Release 0.0.7
+
+* init
+
+### Release 0.0.6
+
+init
+
 ### Release 0.0.5
 
  init
 
-
 ### Release 0.0.4
 
 init
-
 
 ### Release 0.0.3
 
