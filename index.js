@@ -1,4 +1,4 @@
-const gtmetrix = require('gtmetrix')
+//const gtmetrix = require('gtmetrix')
 const getSVG = require('./lib/getDependenciesSVG.js')
 
 /*
