@@ -22,6 +22,10 @@
 
 ## Release Notes
 
+### Release 0.0.12
+
+* Fix Madge options error
+
 ### Release 0.0.11
 
 * Clean
