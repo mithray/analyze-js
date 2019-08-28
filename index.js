@@ -7,8 +7,12 @@ var content = fs.readFileSync('/home/raymond/backup/mithray/mnd/src/main.sass', 
 var deps = precinct(content, { type: 'sass' });
 */
 
+async function getDependenciesSVG(path){
 
-getSVG( './index.js' )
-	.then( svg => {
-		console.log(svg)
-	})
+	let svg = await getSVG(path)
+
+	return svg
+
+}
+
+module.exports = getDependenciesSVG

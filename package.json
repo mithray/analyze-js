@@ -1,6 +1,6 @@
 {
-  "name": "analyze_project",
-  "version": "0.0.1",
+  "name": "@mithray/analyze-js",
+  "version": "0.0.3",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -8,7 +8,8 @@
   "scripts": {
     "test:domain": "node test/gtmetrix.js",
     "update:geocode": "node test/open_cage_data.js",
-    "dependencies": "npm ls --json | npm2dot | dot -Tsvg -o dependencies.svg -Grankdir=LR"
+    "dependencies": "npm ls --json | npm2dot | dot -Tsvg -o dependencies.svg -Grankdir=LR",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "opencage-api-client": "^0.4.0",
     "precinct": "^6.1.2",
     "read-chunk": "^3.0.0",
+    "readability-meter": "^1.0.0",
     "render-dot": "0.0.7",
     "viz.js": "^2.1.2"
   },
