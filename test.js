@@ -1,23 +1,17 @@
-const escomplex = require('escomplex');
-const fs = require('fs')
-var source = fs.readFileSync('../cryptography-browser/src/dump.js', 'utf8')
-var jsome = require('jsome');
+const Mocha = require('mocha')
+const assert = require('assert')
+const chai = require('chai')
 
-const result = escomplex.analyse(source);
+/*
+var mocha = new Mocha({
+	reporter: 'mochawesome'
+})
+*/
 
-//console.log(result)
-
-let halstead = result.aggregate.halstead
-
-let summary = {
-	'length': halstead.length,
-	'vocabulary': halstead.vocabulary,
-	'difficulty': halstead.difficulty,
-	'volume': halstead.volume,
-	'effort': halstead.effort,
-	'bugs': halstead.bugs,
-	'time_seconds': halstead.time,
-	'time_hours': halstead.time / 3600
-}
-
-jsome(summary);
+describe( 'Array', function() {
+	describe( '#indexOf()', function() {
+		it('should return -1 when the value is not present', function(){
+		assert.equal(-1, [1,2,3].indexOf(4))
+		})
+	})
+})

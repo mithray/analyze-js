@@ -30,6 +30,14 @@ sudo apt-get install graphviz
 
 ## Release Notes
 
+### Release 0.0.16
+
+* update
+
+### Release 0.0.15
+
+* update
+
 ### Release 0.0.14
 
 * update
