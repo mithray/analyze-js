@@ -12,7 +12,7 @@ async function getDependenciesSVG(path){
 
 	let svg = await getSVG(path)
 
-				console.log(svg)
+	console.log(svg)
 
 	return svg
 
