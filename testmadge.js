@@ -1,6 +1,6 @@
-const getSVG = require('./lib/getDependenciesSVG.js')
+const getSVG = require('./lib/writeDependenciesSVG.js')
 
-let svg = getSVG('./index.js')
+let svg = getSVG( './index.js', './dependencies.svg' )
 	.then( svg => {
-		console.log(svg)
+		console.log('done')
 	})

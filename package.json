@@ -14,6 +14,7 @@
   "author": "Raymond Smith <raymond@lucentmonkey.com> (alchmy.github.io/alchmy-cli)",
   "license": "ISC",
   "dependencies": {
+    "@mithray/md-terminal": "0.0.1",
     "gtmetrix": "^1.3.0",
     "jsome": "^2.5.0",
     "json-to-dot": "^1.1.0",
