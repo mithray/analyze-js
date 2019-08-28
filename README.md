@@ -22,6 +22,10 @@
 
 ## Release Notes
 
+### Release 0.0.11
+
+* Clean
+
 ### Release 0.0.10
 
 * Remove logging
