@@ -20,7 +20,7 @@
     "jsome": "^2.5.0",
     "json-to-dot": "^1.1.0",
     "madge": "^3.4.4",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "mochawesome": "^4.1.0",
     "node-report": "^2.2.8",
     "render-dot": "0.0.7",
